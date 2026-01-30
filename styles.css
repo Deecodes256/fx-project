@@ -1,0 +1,23 @@
+.subscribe{
+    color: white;
+    padding: 0.5vw;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: black;
+border-radius: 1vw;
+}
+.calculate{
+    padding: 0.7vw;
+    color: white;
+    cursor: pointer;
+    background-color: green;
+}
+input{
+    width: 15vw;
+    height: 7.5vh;
+    padding-left: 0.4vw;
+}
+.is-subscribed{
+    background-color: grey;
+    color: black;
+}

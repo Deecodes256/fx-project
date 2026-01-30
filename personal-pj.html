@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Tracker</title>
+    <link rel="stylesheet" href="project.css" />
+</head>
+
+<body class="body">
+    <div class="header">
+        <h2>Web3 progress tracker</h2>
+        <div class="dropdown-menu">
+        
+            <input type="checkbox" name="" id="menu-toggle">
+
+            <label for="menu-toggle" class="dropdown">select</label>
+            <div class="menu-links">
+                <a href="#">NFT</a>
+                <a href="futures.html">Futures</a>
+                <a href="forex.html">Forex</a>
+                <a href="airdrops.html">Airdrops</a>
+            </div>
+        </div>
+        
+        <button onclick="dark()">🌙 Dark Mode</button>
+       
+        <button onclick="winrate()">📊 Win Rate</button>
+    </div>
+
+    <div class="add-input-grid">
+        <input type="text" placeholder="Project name" class="text-todo" />
+        <input type="date" class="duedate-js" />
+        <button class="add" onclick="addtodo()">Add</button>
+    </div>
+
+    <div class="stats">
+        <span id="wins">Wins: 0</span>
+        <span id="losses">Losses: 0</span>
+    </div>
+
+    <div class="js-project-list todotask"></div>
+
+    <script src="project.js"></script>
+</body>
+
+</html>

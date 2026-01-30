@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futures progress tracker</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body class="futuresbody">
+    <h2>Trading journal</h2>
+    <div class="header">
+        <button onclick="futureswinrate()">📊 Win Rate</button>   
+<div class="dropdown-menu">
+
+    <input type="checkbox" name="" id="menu-toggle">
+    <label for="menu-toggle" class="dropdown">select </label>
+    <div class="menu-links">
+        <a href="">Futures</a>
+        <a href="personal-pj.html">Nft</a>
+        <a href="forex.html">Forex</a>
+        <a href="airdrops.html">Airdrops</a>
+    </div>
+</div>
+<a href="longterm-futures.html" class="long-termstyles">Long term goals</a>
+        <button onclick="futuresdarkmode()">🌙 Dark Mode</button>
+       
+    </div>
+    <div class="profit-container">
+        <span>Total-profit :</span>
+        <span class="total-profit"></span>
+    </div>
+    <div class="add-input-grid">
+        <input type="text" placeholder="Project name" class="text-todo" />
+        <input type="date" class="duedate-js" />
+          <button class="add" onclick="futuresaddtodo()">Add</button>
+
+    </div>
+    
+<div class="balance-container">
+    <input type="text" name="" id="" placeholder="Type-in-capital" class="futures-input-capital">
+    <button class="futures-save-capital" onclick="capital()">Enter</button>
+    <span class="futures-capital-display"></span>
+</div>
+
+
+
+
+
+    <div class="stats">
+        <span id="futureswins">Wins: 0</span>
+        <span id="futureslosses">Losses: 0</span>
+    </div>
+    <span class="confirm-text"></span>
+    <div class="js-project-list todotask"></div>
+<script src="futures.js"></script>
+</body>
+</html>
